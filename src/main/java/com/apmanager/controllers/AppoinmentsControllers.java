@@ -29,7 +29,7 @@ import com.apmanager.service.AppoinmentsService;
  * Controlador que manipula el flujo de los servicios REST del microservicio TESTS.
  */
 @RestController
-@RequestMapping("api/controller/appoinments")
+@RequestMapping("api/controllers/appoinments")
 public class AppoinmentsControllers {
 	
 	@Autowired
