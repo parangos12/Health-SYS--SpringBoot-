@@ -30,7 +30,7 @@ import com.apmanager.util.Validators;
  * Controlador que manipula el flujo de los servicios REST del microservicio TESTS.
  */
 @RestController
-@RequestMapping("api/controller/affiliates")
+@RequestMapping("api/controllers/affiliates")
 public class AffiliatesControllers {
 	
 	@Autowired
