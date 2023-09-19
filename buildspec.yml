@@ -34,7 +34,7 @@ phases:
       - printf '[{"name":"sys-health","imageUri":"%s"}]' $REPOSITORY_URI:$IMAGE_TAG > imagedefinitions.json
       - cat imagedefinitions.json
       - echo Actualizando servicio Fargate...
-      - aws ecs update-service --cluster $CLUSTER --service $SERVICE --force-new-deployment
+      - aws ecs update-service --cluster $CLUSTER --service $SERVICE
 artifacts:
   files:
    - imagedefinitions.json
